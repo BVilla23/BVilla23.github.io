@@ -1,0 +1,86 @@
+body {
+background-color: lightgreen;
+}
+
+
+.stage {
+/*border: 2px solid red;*/
+height:300px;
+width:80%;
+margin: auto;
+overflow: hidden;
+
+
+
+
+}
+
+
+
+.slide-group {
+width: 400%;
+height: 100%;
+/*border: 2px solid blue;*/
+animation: move 10s;
+
+}
+
+
+.slide {
+  width: 25%;
+  height: 100%;
+  float: left;
+
+  font-size:60px;
+
+
+}
+
+
+
+.s1 {
+  background-color: purple;
+
+
+
+
+
+}
+
+.s2 {
+  background-color: orange;
+
+
+
+
+
+}
+
+
+.s3 {
+  background-color: lightblue;
+
+
+
+
+
+}
+
+
+
+
+.s4 {
+  background-color: pink;
+}
+
+@keyframes move {
+
+  0% {margin-left: 0%}
+
+  25%  {margin-left: -100%}
+
+  50% {margin-left: -200%}
+
+  100% {margin-left: -300%}
+
+}
